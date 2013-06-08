@@ -5,7 +5,7 @@ An HTML tag to generate ASCII art from strings of text!
 ### Takes this boring garbage...
 
 ```html
-<mc-ascii-art font="Speed">Domo Arigato</mc-ascii-art>
+<ascii-art font="Speed">Domo Arigato</ascii-art>
 ```
 
 ### And turns it into this gold...
