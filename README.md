@@ -1,4 +1,4 @@
-# mc-ascii-art
+# ascii-art
 
 An HTML tag to generate ASCII art from strings of text!
 
