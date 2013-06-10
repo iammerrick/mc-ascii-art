@@ -12,9 +12,18 @@
       ascii-art {
         font-family: monospace;
       }
+      input {
+        font-size: 16px;
+        padding: 5px;
+        outline: 0;
+      }
     </style>
 </head>
 <body>
+  <h1>Static Text</h1>
   <ascii-art font="Speed">Domo Arigato</ascii-art>
+  <h1>Dynamic Text</h1>
+  <input type="text" placeholder="Type something" ng-model="text" autofocus /><br/>
+  <ascii-art text="{{text}}" font="Speed"></ascii-art>
 </body>
 </html>
